@@ -13,7 +13,7 @@
       state: present
   - name: copy chromedrive
     copy:
-     src: /home/ubuntu/chromedriver
+     src: /home/ubuntu/Downloads/chromedriver
      dest: /home/ubuntu/
   - name: install chromium browser
     package:

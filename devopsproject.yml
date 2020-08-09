@@ -5,12 +5,12 @@
   tasks:
   - name: install git 
     package:
-      name: git
-      state: present 
+     name: git
+     state: present 
   - name: install java 
     package:
-      name: openjdk-8-jdk
-      state: present
+     name: openjdk-8-jdk
+     state: present
   - name: copy chromedrive
     copy:
      src: /home/ubuntu/chromedriver
@@ -19,7 +19,7 @@
     package:
      name: chromium-browser
      state: present
-   - name: Insatll Chromium Driver
-     package: 
-      name: chromium-chromedriver
-      state: present
+  - name: Insatll Chromium Driver
+    package: 
+     name: chromium-chromedriver
+     state: present
